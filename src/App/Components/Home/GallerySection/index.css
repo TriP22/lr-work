@@ -7,6 +7,11 @@
   margin: 7px 0;
 }
 
+.th-gallery img:hover {
+  box-shadow: 0px 0px 10px 1px rgba(74, 101, 192, 0.5);
+  cursor: pointer;
+}
+
 @media (max-width: 500px) {
   .th-gallery {
     column-count: 2;
@@ -16,4 +21,29 @@
   .th-gallery img {
     margin: 2px 0;
   }
+}
+
+.th-gallery-backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 33, 38, 0.6);
+  z-index: 100;
+}
+
+.th-slider-container {
+  z-index: 200px;
+  position: absolute;
+  top: 20vh;
+  left: 0vw;
+  right: 0vw;
+}
+
+.th-slider-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 450px;
 }
