@@ -1,0 +1,19 @@
+.th-gallery {
+  column-count: 3;
+  column-gap: 16px;
+}
+.th-gallery img {
+  width: 100%;
+  margin: 7px 0;
+}
+
+@media (max-width: 500px) {
+  .th-gallery {
+    column-count: 2;
+    column-gap: 4px;
+  }
+
+  .th-gallery img {
+    margin: 2px 0;
+  }
+}

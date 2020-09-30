@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
+
+/* general */
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  width: 100%- 10px;
+  overflow-x: hidden !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.th-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.th-10 {
+  font-size: 10px;
+}
+
+.th-12 {
+  font-size: 12px;
+}
+
+.th-13 {
+  font-size: 13px;
+}
+
+.th-14 {
+  font-size: 14px;
+}
+
+.th-16 {
+  font-size: 16px;
+}
+
+.th-18 {
+  font-size: 18px;
+}
+
+.th-20 {
+  font-size: 20px;
+}
+
+.th-22 {
+  font-size: 22px;
+}
+
+.th-24 {
+  font-size: 24px;
+}
+
+.th-30 {
+  font-size: 30px;
+}
+
+.th-36 {
+  font-size: 36px;
+}
+
+.th-72 {
+  font-size: 72px;
+}
+
+/* font weight */
+.th-thin {
+  font-weight: 100;
+}
+
+.th-light {
+  font-weight: 300;
+}
+
+.th-regular {
+  font-weight: 400;
+}
+
+.th-medium {
+  font-weight: 500;
+}
+
+.th-bold {
+  font-weight: 700;
+}
+
+/* font color */
+.th-black {
+  color: #000000 !important;
+}
+
+.th-grey {
+  color: #959595;
+}
+
+.th-white {
+  color: #ffffff;
+}
+
+.th-primary {
+  color: #f66962 !important;
+}
+
+/* Link */
+.th-link {
+  color: #000000;
+}
+
+.th-link:hover {
+  text-decoration: none;
+  color: #f66962;
+}
+.th-link:focus {
+  text-decoration: none;
+  color: #f66962;
+  box-shadow: none;
+}
+
+/* BUTTON */
+.th-btn-primary {
+  font-size: 12px;
+  color: #ffffff;
+  background: #f66962;
+  border-radius: 3px;
+  border: 1px solid #f66962;
+  text-transform: uppercase;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.th-btn-primary-outline {
+  font-size: 12px;
+  color: #f66962;
+  background: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #f66962;
+  text-transform: uppercase;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.th-btn-primary-outline:focus {
+  color: #f66962;
+  box-shadow: none;
+}
+
+.th-btn-primary-ghost {
+  /* font-size: 16px; */
+  color: #f66962;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+.th-btn-primary:focus,
+.th-btn-primary-outline:focus,
+.th-btn-primary-ghost:focus {
+  outline: none;
+}
+
+/* BG Color */
+.th-bg-white {
+  background: #ffffff;
+}
+.th-bg-primary {
+  background: #f66962;
+}
+
+/* BG Color Neutral */
+
+.th-bg-black {
+  background: #000000;
+}
+
+.th-bg-white {
+  background: #ffffff;
+}
+
+/* Header */
+.th-header-logo {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+  mix-blend-mode: luminosity;
+}
+
+/* Footer */
+.th-footer-logo {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
+}
+
+@media screen and (max-width: 767.5px) {
+  .th-hidden-sm {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .th-hidden-md {
+    display: none !important;
+  }
+}
